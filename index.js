@@ -35,4 +35,4 @@ bot.on('message',(m1)=>{
     }
 })
 
-bot.login("OTQxNjgxNjQwODk4NDQ5NDI4.YgZfXg.X5HmXdUXaYRySbQxa3BrmkOcUiY");
+bot.login(TOKEN);
