@@ -34,4 +34,4 @@ bot.on('message',(m1)=>{
     }
 })
 
-bot.login("OTQxNjgxNjQwODk4NDQ5NDI4.YgZfXg.8-H2VjLdvI5e4p1w9hMpKBXtV7E");
+bot.login(token);
