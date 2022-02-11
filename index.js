@@ -1,7 +1,6 @@
-const express =require('express')
-const app =express();
+
 const Discord = require('discord.js');
-let port = process.env.PORT || 8000;
+
 // Create a new client instance
 const bot = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
 const prefix =`?n`;
@@ -36,8 +35,4 @@ bot.on('message',(m1)=>{
     }
 })
 
-bot.login(token);
-
-app.listen(port,()=>{
-    console.log("server online")
-})
+bot.login("OTQxNjgxNjQwODk4NDQ5NDI4.YgZfXg.X5HmXdUXaYRySbQxa3BrmkOcUiY");
